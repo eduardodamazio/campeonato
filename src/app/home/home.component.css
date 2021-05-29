@@ -1,0 +1,32 @@
+#news{
+    background-color: #dbeddf;
+    border-radius: 15px;
+}
+#home{
+    background-color: #9ef491;
+    border-radius: 15px;
+}
+.clube-body, .clube
+{
+    text-align: center;
+}
+.jogador-body, .jogador
+{
+    text-align: center;
+}
+.partida-body, .partida
+{
+    text-align: center;
+}
+
+#titulo
+{
+    background-color: #69a37d;
+    border-radius: 15px;
+}
+.card
+{
+    background-color: #a4e3a9;
+    border-radius: 15px;
+}
+

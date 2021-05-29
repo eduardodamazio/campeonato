@@ -1,0 +1,62 @@
+<div class="container">
+    <div class="row">
+        <div class="col-9" style="font-size: 40px;"><b>Cadastro de Jogador</b></div>
+    </div>
+    <br>
+  <div class="row">
+      <div class="rol">
+          <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="validationCustom01"  required>
+                <div class="valid-feedback">
+                  
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Data de nascimento</label>
+                <input type="date" class="form-control" id="validationCustom02" required>
+                <div class="valid-feedback">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="formfile" class="form-label">Foto</label>
+                <input class="form-control" type="file" id="formfile">
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustom03" class="form-label">Posição</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                  Informe um nome válido.
+                </div>
+              </div>
+              <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">Número da camisa</label>
+                <input type="text" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                  Por favor informe um número de CEP válido.
+                </div>
+              </div>
+              <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">Time</label>
+                <select class="form-select" id="validationCustom04" required>
+                  <option selected disabled value="">Escolha um time</option>
+                  <option>TIME 1</option>
+                  <option>TIME 2</option>
+                  <option>TIME 3</option>
+                </select>
+                <div class="invalid-feedback">
+                  Selecione um estado válido
+                </div>
+              </div>
+              <div class="col">
+                <button class="btn " type="submit"id="liveToastBtn"><b>Cadastrar resultado</b></button>                
+                <button class="btn " type="submit" routerLink= "/jogador" ><b>Voltar</b></button>
+              </div>
+            </form>
+      </div>
+  </div>
+  <br>
+  <br>
+  </div>
+  

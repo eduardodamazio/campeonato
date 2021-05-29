@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body
+{
+    background-color:#69a37d;
+}
+.container
+{
+    background-color:#a4e3a9;
+    border-radius: 15px;
+
+}
+.col-4
+{
+    text-align: center;
+}
